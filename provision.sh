@@ -96,7 +96,11 @@ sudo apt-get -y install xorg openbox
 sudo ldconfig
 sudo modprobe sch_netem
 cd $HOME_DIR
-sudo chown -R $USER_NAME ./* ./.[!.]*
-sudo chgrp -R $USER_NAME ./* ./.[!.]*
-sudo chmod 775 ./* ./.[!.]*
 
+
+# Install the syntax highlighter stuff
+sudo apt-get install -y vim-gtk emacs
+cp /vagrant/syntaxfiles/emacs/.emacs $HOME_DIR
+cp -r /vagrant/syntaxfiles/emacs/.myemacs $HOME_DIR
+cp -R /vagrant/syntaxfiles/vim/ $HOME_DIR
+mv $HOME_DIR/vim $HOME_DIR/.vim

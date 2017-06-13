@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
     vb.cpus = "2"
   end
 
-  config.vm.provision :shell, path: "provision.sh"
-  # priviledged: false,
+  config.vm.provision :shell, privileged: false, :path => "provision.sh"
+
 
 end
