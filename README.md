@@ -37,6 +37,9 @@ If you have problems with xterm in mininet, instead use the command
 $ vagrant ssh -- -X
 ```
 
+The vagrant project directory on your host machine is synced to the guest VM
+as the directory /vagrant/.
+
 ## Running the tutorial
 
 After SSHing, the P4_16 tutorial is located at 
@@ -52,5 +55,5 @@ $ vagrant destroy
 $ vagrant up
 ```
 to reprovision. WARNING: This will delete all files in the VM except for
-those in the directory /vagrant/. Reprovisioning is not recommended unless absolutely necessary, since
+those in the /vagrant/ directory. Reprovisioning is not recommended unless absolutely necessary, since
 it takes so gosh dang long.
