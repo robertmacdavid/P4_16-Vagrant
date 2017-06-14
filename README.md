@@ -57,3 +57,15 @@ $ vagrant up
 to reprovision. WARNING: This will delete all files in the VM except for
 those in the /vagrant/ directory. Reprovisioning is not recommended unless absolutely necessary, since
 it takes so gosh dang long.
+
+## Authors
+Robert MacDavid - macdavid@cs.princeton.edu
+Rob Harrison - robh2@cs.princeton.edu
+
+## Acknowledgments
+
+The Emacs syntax highlighting config was found on the VM provided at P4
+Developer's day 2017. The Vim syntax highlighting config was made by updating
+the P4-14 syntax highlighting config found at
+https://github.com/c3m3gyanesh/p4-syntax-highlighter-collection to reflect the
+changes to the language. 
