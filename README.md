@@ -60,6 +60,7 @@ it takes so gosh dang long.
 
 ## Authors
 Robert MacDavid - macdavid@cs.princeton.edu
+
 Rob Harrison - robh2@cs.princeton.edu
 
 ## Acknowledgments
