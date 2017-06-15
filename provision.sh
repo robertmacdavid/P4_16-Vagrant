@@ -95,6 +95,7 @@ cd $HOME_DIR
 sudo apt-get -y install xorg openbox
 sudo ldconfig
 sudo modprobe sch_netem
+sudo apt-get --reinstall install man
 cd $HOME_DIR
 
 
