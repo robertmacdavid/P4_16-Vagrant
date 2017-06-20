@@ -68,6 +68,8 @@ git clone https://github.com/p4lang/behavioral-model.git bmv2
 cd $HOME_DIR/bmv2
 ./install_deps.sh
 ./autogen.sh
+# For high-performance BMV2, use the alternative configure line below
+# ./configure --disable-logging-macros --disable-elogger 'CXXFLAGS=-O2'
 ./configure
 make
 sudo make install
