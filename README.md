@@ -11,11 +11,11 @@ Simply clone this repo and call "vagrant up" in the home directory of the projec
 
 ### Prerequisites
 
-The only prerequisite is an up-to-date installation of vagrant. 
+The only prerequisite is an up-to-date installation of Vagrant (<https://www.vagrantup.com/>) and VirtalBox (<https://www.virtualbox.org/wiki/VirtualBox>).
 
 ### Installing
 
-Installation is quite simple:
+After installing the prerequisites, installation is quite simple:
 ```
 $ git clone https://github.com/robertmacdavid/P4_16-Vagrant.git p4_16-vagrant
 $ cd p4_16-vagrant
