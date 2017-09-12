@@ -5,7 +5,7 @@
 
 Vagrant.configure("2") do |config|
   ### config.vm.box = "ubuntu/trusty64"
-  config.vm.box = "boxcutter/ubuntu1610"
+  config.vm.box = "box-cutter/ubuntu1610"
   # a box with at least ubuntu 16.10 is necessary to install the p4 compiler
 
   config.vm.hostname = "p4"
