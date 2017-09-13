@@ -52,12 +52,13 @@ cd $HOME_DIR
 # Install P4 Compiler
 cd $HOME_DIR
 git clone --recursive https://github.com/p4lang/p4c.git p4c
-sudo apt-get install -y g++ git automake libtool libgc-dev bison flex libfl-dev libgmp-dev libboost-dev libboost-iostreams-dev pkg-config python python-scapy python-ipaddr tcpdump
+sudo apt-get install -y g++ git automake libtool libgc-dev bison flex libfl-dev libgmp-dev libboost-dev libboost-iostreams-dev pkg-config python python-scapy python-ipaddr tcpdump cmake
 cd p4c
-./bootstrap.sh
+mkdir build
 cd build
+cmake ..
 make -j4
-make check -j4
+make -j4 check
 sudo make install
 cd $HOME_DIR
 
