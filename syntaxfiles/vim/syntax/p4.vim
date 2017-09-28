@@ -21,7 +21,7 @@ syn keyword p4ObjectKeyword   enum extern exit
 syn keyword p4ObjectKeyword   header header_union
 syn keyword p4ObjectKeyword   match_kind
 syn keyword p4ObjectKeyword   package parser
-syn keyword p4ObjectKeyword   state struct switch
+syn keyword p4ObjectKeyword   state struct switch size
 syn keyword p4ObjectKeyword   table transition tuple typedef
 syn keyword p4ObjectKeyword   verify
 
