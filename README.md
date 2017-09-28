@@ -11,7 +11,8 @@ Simply clone this repo and call "vagrant up" in the home directory of the projec
 
 ### Prerequisites
 
-The only prerequisite is an up-to-date installation of [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox).
+The only prerequisite is an **up-to-date installation** of [Vagrant](https://www.vagrantup.com/) and 
+[VirtualBox](https://www.virtualbox.org/wiki/VirtualBox).
 
 ### Installing
 
