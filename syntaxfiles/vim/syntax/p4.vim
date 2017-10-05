@@ -62,7 +62,7 @@ syn match   p4BinaryInt      '0[bB][01_]\+'
 
 
 syn region  p4SizedType     start='(bit|int|varbit)\<' end='\>'
-syn match   p4UserType      '[A-Za-z_][A-Za-z0-9_]*[_][t]'
+syn match   p4UserType      '[A-Za-z_][A-Za-z0-9_]*[_][t]\W'
 syn keyword p4Operators     and or not &&& mask
 
 
